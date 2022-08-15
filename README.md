@@ -1,9 +1,21 @@
 # Multi Brightness Control
-Multi Brightness Control is an utility for changing brighnesses for all monitors at same time. Only works on Windows. It reads the screen 0's (screen 0 is internal display in laptops) brightness value and applies to all other monitors.
+
+Multi Brightness Control is an utility for changing brightnesses for all monitors at same time. Only works on Windows. It reads primary display (aka. internal display in laptops) brightness value and applies to all other displays.
 
 There is two versions:
-- Full: Creates an system tray icon to terminate app or track current value and connected display count. Also includes comments.
-- Clear: Just core feature: Only checks brightness and applies to all monitors.
 
-## Usage
-Coming soon. Try to run from source.
+- Full: Creates an system tray icon to track current value and connected display count. Also supports command line arguments.
+- Clear: Just core feature. Only checks brightness and applies to all monitors.
+
+## Installation
+
+1) Clone the repository: `git clone https://github.com/Segilmez06/Multi-Brightness-Control`
+2) Enter the directory: `cd Multi-Brightness-Control`
+3) Install the dependencies: `pip install -r requirements.txt`
+4) Run the script: `python control.py` or `python control-clear.py`
+
+Also you can create link to script in startup folder to run it on login.
+
+## Contributing
+
+You can help me by reporting bugs, suggesting features or creating pull requests.
