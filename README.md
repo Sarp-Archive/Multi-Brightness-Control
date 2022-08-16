@@ -1,6 +1,8 @@
 # Multi Brightness Control
 
-Multi Brightness Control is an utility for changing brightnesses for all monitors at same time. Only works on Windows. It reads primary display (aka. internal display in laptops) brightness value and applies to all other displays.
+[![Code Quality](https://api.codiga.io/project/34389/score/svg "Code Quality")](https://app.codiga.io/hub/project/34389/Multi-Brightness-Control)
+
+Multi Brightness Control is an utility for changing brightnesses for all monitors at same time. Only works on Windows. It reads primary display (aka. internal display in laptops) brightness value and applies to all other displays. For example, if you connect an external monitor to your laptop and change screen brightness via action center or keyboard, other external monitor's brightness will also change.
 
 There is two versions:
 
