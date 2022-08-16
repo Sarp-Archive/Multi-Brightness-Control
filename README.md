@@ -12,7 +12,7 @@ There is two versions:
 1) Clone the repository: `git clone https://github.com/Segilmez06/Multi-Brightness-Control`
 2) Enter the directory: `cd Multi-Brightness-Control`
 3) Install the dependencies: `pip install -r requirements.txt`
-4) Run the script: `python control.py` or `python control-clear.py`
+4) Run the script: `python main.py` or `python clear.py`
 
 Also you can create link to script in startup folder to run it on login.
 
